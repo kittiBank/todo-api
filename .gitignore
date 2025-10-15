@@ -3,3 +3,4 @@ dist
 .env
 .vscode
 npm-debug.log
+coverage/

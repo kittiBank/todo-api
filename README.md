@@ -38,10 +38,11 @@ A simple To-Do List REST API using Node.js and TypeScript without using any data
 
 
  ## Endpoints
-| Method | Endpoint     | Description         |
-|--------|-------------|-------------------|
-| GET    | /todos      | List all todos     |
-| GET    | /todos/:id  | Get a todo by ID   |
-| POST   | /todos      | Create a new todo  |
-| PUT    | /todos/:id  | Update a todo by ID|
-| DELETE | /todos/:id  | Delete a todo by ID|
+
+| Method | Endpoint     | Description           | Body |
+|--------|---------------|-----------------------|------|
+| GET    | /todos        | List all todos        | — |
+| GET    | /todos/:id    | Get a todo by ID      | — |
+| POST   | /todos        | Create a new todo     | `{ "title": "Eating", "description": "Pad Thai" }` |
+| PUT    | /todos/:id    | Update a todo by ID   | `{ "title": "Eating", "description": Noodle }` |
+| DELETE | /todos/:id    | Delete a todo by ID   | — |
